@@ -1,7 +1,5 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
 ### What is this repository for? ###
 
 This is a wrapper implementation for the site http://losangeles.eventful.com/events. A wrapper is basically used to extract semi-structured data from the webpages. crawler4j was used to scrape web pages and the web pages are stored locally. In the wrapper implementation Beautiful soup is used to extract relevant information about events, which is stored in json format.
